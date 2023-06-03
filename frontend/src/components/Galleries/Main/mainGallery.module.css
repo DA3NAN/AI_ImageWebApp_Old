@@ -1,0 +1,21 @@
+.gallery .galleryLinks {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  justify-content: space-around;
+}
+
+.galleryBar {
+  width: 100px;
+  height: 2px;
+  background-color: white;
+}
+
+.galleryLink {
+  cursor: pointer;
+}
+
+.galleryLink:hover,
+.galleryLink.active {
+  color: #747bff;
+}

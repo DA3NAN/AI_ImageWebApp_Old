@@ -1,0 +1,52 @@
+.angryGrid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  height: 600px;
+  width: 100%;
+}
+
+.item0 {
+  background: url("/images/gallery1.png");
+  background-size: cover;
+  background-position: 85%;
+  border-radius: 10px;
+  border: 2px solid white;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 5;
+  grid-column-end: 3;
+}
+.item1 {
+  background: url("/images/gallery2.webp");
+  background-size: cover;
+  background-position: 85%;
+  border-radius: 10px;
+  border: 2px solid white;
+  grid-row-start: 1;
+  grid-column-start: 3;
+  grid-row-end: 3;
+  grid-column-end: 7;
+}
+.item2 {
+  background: url("/images/gallery3.png");
+  background-size: cover;
+  border-radius: 10px;
+  border: 2px solid white;
+  grid-row-start: 3;
+  grid-column-start: 3;
+  grid-row-end: 5;
+  grid-column-end: 5;
+}
+.item3 {
+  background: url("/images/gallery4.jpg");
+  background-size: cover;
+  background-position: 50%;
+  border-radius: 10px;
+  border: 2px solid white;
+  grid-row-start: 3;
+  grid-column-start: 5;
+  grid-row-end: 5;
+  grid-column-end: 7;
+}

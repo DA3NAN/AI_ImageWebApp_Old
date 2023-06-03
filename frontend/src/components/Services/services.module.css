@@ -1,0 +1,22 @@
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  padding: 0 4rem;
+}
+
+.service {
+  display: flex;
+  align-items: center;
+}
+
+.service img {
+  margin-right: 20px;
+}
+
+.service p {
+  max-width: 200px;
+  text-align: left;
+}

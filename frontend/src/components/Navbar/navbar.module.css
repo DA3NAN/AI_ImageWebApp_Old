@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #140647;
+  width: 82.2%;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-49.3%);
+  top: 3%;
+  padding: 1.3rem 2rem;
+  border-radius: 15px;
+  z-index: 3;
+}
+
+.logo {
+  font-size: 22px;
+}
+
+.logo a {
+  color: white;
+}
+
+.logo a:hover {
+  color: white;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  font-size: 16px;
+}
+
+.links a {
+  color: white;
+  font-weight: 400;
+  transition: 0.15s ease-in-out;
+}
